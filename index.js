@@ -6,7 +6,7 @@ var server = http.createServer(function (req, resp) {
     // Estado de tipo satisfactorio, mensaje de tipo JSON
     resp.writeHead(200, { 'Content-Type': 'text/plain' });
     // Escribo el mensaje de texto plano
-    resp.write('Hola mundo');
+    resp.write('CalosGordillo: Este es el mensaje que debe de recibir el movil.'); //cambia el codigo 
     resp.end();
 });
 
